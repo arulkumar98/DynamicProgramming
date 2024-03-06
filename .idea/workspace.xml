@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3637bf35-0fe6-4ca9-b28f-841f7d157e92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DynamicProgramming.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/ClaimStairs2Memo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/ClaimStairs2Tab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/KCon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/KadaneAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/LongestCommonSubSquenceMemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/LongestSubseqence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advance/SubSequenceTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/ClimbingStairsMemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/ClimbingStairsTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/FibonacciMemoization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/FibonacciTabulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/MinPath.java" afterDir="false" />
+    <list default="true" id="3637bf35-0fe6-4ca9-b28f-841f7d157e92" name="Changes" comment="DO">
+      <change afterPath="$PROJECT_DIR$/src/advance/CountPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/CountingCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/MaxPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/MinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/NonAdjacentSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/SumPossible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/SummingSqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advance/TribonacciMemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advance/KCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advance/KCon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +53,10 @@
     "Application.LongestSubseqence.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MinPath.executor": "Debug",
+    "Application.NonAdjacentSum.executor": "Run",
     "Application.ReverseWords.executor": "Run",
+    "Application.SummingSqrt.executor": "Run",
+    "Application.TribonacciMemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -76,26 +70,13 @@
       <recent name="advance" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KadaneAlgorithm">
-    <configuration name="ClaimStairs2Tab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advance.ClaimStairs2Tab" />
-      <module name="DynamicProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SummingSqrt">
     <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="advance.KadaneAlgorithm" />
       <module name="DynamicProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advance.*" />
+          <option name="PATTERN" value="advance.TribonacciMemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +89,7 @@
       <module name="DynamicProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advance.*" />
+          <option name="PATTERN" value="advance.TribonacciMemo" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubseqence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advance.LongestSubseqence" />
+    <configuration name="NonAdjacentSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advance.NonAdjacentSum" />
       <module name="DynamicProgramming" />
       <extension name="coverage">
         <pattern>
@@ -129,20 +110,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseWords" />
+    <configuration name="SummingSqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advance.SummingSqrt" />
       <module name="DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TribonacciMemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="advance.TribonacciMemo" />
+      <module name="DynamicProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SummingSqrt" />
+        <item itemvalue="Application.NonAdjacentSum" />
+        <item itemvalue="Application.TribonacciMemo" />
         <item itemvalue="Application.KadaneAlgorithm" />
         <item itemvalue="Application.LongestCommonSubSquenceMemo" />
-        <item itemvalue="Application.LongestSubseqence" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.ClaimStairs2Tab" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,20 @@
       <option name="presentableId" value="Default" />
       <updated>1709013616537</updated>
     </task>
+    <task id="LOCAL-00001" summary="DO">
+      <option name="closed" value="true" />
+      <created>1709139463781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709139463781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DO" />
+    <option name="LAST_COMMIT_MESSAGE" value="DO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
